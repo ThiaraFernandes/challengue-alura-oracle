@@ -1,0 +1,255 @@
+@media screen and (max-width: 1400px){
+    body{
+        min-height: 100vh;
+    }
+    .cabecalho{
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cabecalho h1{
+        font-size: 1.5rem;
+    }
+    .cabecalho p{
+        font-size: 1rem;
+      
+    }
+    .container{
+        width: 100%;
+        margin-bottom: 10.6rem;
+        
+    }
+    .container__informacoes{
+        padding-left: 1.5rem;
+        width: 43rem;
+        /* height: 5rem; */
+
+    }
+    .container__texto{
+        width: 80%;
+        height: 23rem;
+    }
+    .container__informacoes .info{
+        font-size: 1rem;
+        width: 70%;
+        
+    }
+    .container__botoes{
+        width: 70%;
+        height: 40%;
+
+    }
+    .botoes__btn{
+        height: 2.5rem;
+        width: 100%;
+
+    }
+
+    .criptografia__resultado{
+        width: 18rem;
+        height: 27rem;
+        
+    }
+    .rodape{
+       padding: 11px;
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+
+    .cabecalho{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1px;
+    }
+    .container__informacoes {
+        height: 31rem;
+        margin-top: 1px;
+        
+    }
+
+    .container__informacoes .info{
+        /* margin-left: 1rem; */
+        margin-top: .9rem;
+    }
+    .container__texto{
+        width: 95%;
+        height: 24rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .container__botoes{
+        display: flex;
+        justify-content: center;
+        height: 6rem;
+    }
+
+    .container .botoes__btn{
+        width: 20rem;
+        height: 3.5rem;
+        padding: 1.25rem;
+        border-radius: 1.5rem;
+       
+    }
+
+    .botoes__btn:hover {
+        -webkit-transform:none;
+        transform: none;
+    }
+    .container__resultado{
+        height: 17rem; 
+        width: 95%;
+        margin-top: 0;
+    }
+
+    .criptografia__resultado{
+        width: 100%;
+        height: 12.5rem;
+        background-color: #fff;
+        color: #000;
+        border-radius: 1.5rem;
+    }
+    #textElements{
+        height: 1.875rem;
+    }
+
+   .input{
+        background-color: #fff;
+        color: #000;
+        font-size: .9rem;
+        max-width: 100%;
+        font-weight: 500;
+        padding-left: 5px;
+        height: auto;
+                    
+    }
+
+    .criptografia__resultado .imagem{
+        display: none;
+    }
+
+    .criptografia__resultado h3 {
+        font-size: 1rem;
+    }
+
+    .criptografia__resultado p{
+        font-size: 0.7rem;
+    }
+
+    #botaoCopiar{
+        width: 624px;
+        border: 2px solid #6e8689;
+        Padding: .625rem;
+        background-color: #fff;
+        color: #000;
+    }
+
+    .rodape{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 3px;
+        font-size: .9rem;
+    }
+
+}
+@media screen and (max-width: 375px){
+    .cabecalho{
+        display: none;
+    }
+    
+
+    .container__informacoes{
+        height: 32rem;
+        margin-top: 1rem;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container__texto{
+        width: 95%;
+        height: 21rem;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    .container .info{
+        font-size: .7rem;
+        margin-left: -4rem;
+    }
+    .container__botoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .1rem;
+        margin-top: 0;
+
+    }
+    .container .botoes__btn{
+        height: 2.5rem;
+        padding: .4rem;
+        margin-bottom: .1rem;
+        font-size: .9rem;
+        
+    }
+    .container__resultado{
+        width: 95%;
+        margin-top: 0;
+        
+    }
+    .criptografia__resultado{
+        margin-top: 1rem;
+        font-size: .8rem;
+        height: 13rem;
+        
+    }
+    .container__informacoes ::placeholder{
+        font-size: 1rem;
+    }
+    .input{
+        height: auto;
+        font-weight: 300;
+        margin-top: -12px;
+    }
+    #textElements h3{
+        font-size: .9rem;
+        text-align: center;
+    }
+    #textElements p{
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    #botaoCopiar{
+        width: 13rem;
+        height: 1.8rem;
+        padding: 7px;
+        font-size: .8rem;
+   }
+   .rodape{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 3px;
+        font-size: .8rem;
+        text-align: center;
+   }
+}

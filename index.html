@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+
+    <link rel="shortcut icon" href="src/imagens/favicon.ico">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsible.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Decodificador de texto - Alura Challenge Oracle One</h1>
+        <p>Decodificador de texto que permite criptografar ou descriptografar letras.</p>
+    </header>
+
+    <main class="container">
+        <section>
+            <div class="container__informacoes">
+                <div>
+                    <textarea id="input__texto" cols="80" rows="20" placeholder="Digite seu texto aqui"
+                        class="container__texto" ></textarea>
+                </div>
+
+                <div class="info">
+                    <img src="src/imagens/exclamation.svg" alt="sinal de exclamação">
+                    <p id="msg">Apenas letras maiúsculas e sem acento</p>
+                </div>
+               
+
+                <div class="container__botoes">
+                    <button class="botoes__btn" id="criptografar">Criptografar</button>
+
+                    <button class="botoes__btn" id="descriptografar"
+                        >Descriptografar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container__resultado">
+            <div class="criptografia__resultado" id="criptografia__resultado">
+                <textarea  placeholder="Seu texto aqui..." class="input" id="output__texto" cols="80" rows="80"></textarea>
+
+                 <div id="textElements" name="">
+                    <img  src="./src/imagens/search.svg" alt="uma pessoa olhando na lupa" class="imagem">
+                    <h3>Nenhuma mensagem encontrada</h3>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <button id="botaoCopiar">Copiar</button>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Oracle Next Education + Alura - Por : <a href="https://github.com/ThiaraFernandes" target="_blank">Thiara
+                Fernandes</a></p>
+    </footer>
+
+    <script src="script.js" defer></script>
+    </body>
+
+</html>
