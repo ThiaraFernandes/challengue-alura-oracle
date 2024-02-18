@@ -79,14 +79,17 @@
         margin-top: 1px;
         display: flex;
         flex-direction: column;
-       justify-content: center;
+        justify-content: center;
+        margin-left: 5rem;
+        width: 80%;
         
     }
 
-  
     .container__informacoes .info{
         /* margin-left: 1rem; */
-        margin-top: .9rem;
+        /* margin-top: .9rem; */
+        display: flex;
+        justify-content: flex-start;
     }
     .container__texto{
         width: 95%;
@@ -99,14 +102,16 @@
 
     .container__botoes{
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         height: 6rem;
+        align-items: center;
+        margin-left: 0;
     }
 
     .container .botoes__btn{
         width: 20rem;
         height: 3.5rem;
-        padding: 1.25rem;
+        padding: 1rem 7rem;
         border-radius: 1.5rem;
        
     }
