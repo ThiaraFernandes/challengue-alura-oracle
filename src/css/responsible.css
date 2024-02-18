@@ -79,9 +79,6 @@
         margin-top: 1px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-left: 5rem;
-        width: 80%;
         
     }
 
@@ -92,17 +89,16 @@
         justify-content: flex-start;
     }
     .container__texto{
-        width: 95%;
-        height: 24rem;
+        width: 90%;
+        height: 19rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .container__botoes{
         display: flex;
-        /* justify-content: center; */
         height: 6rem;
         align-items: center;
         margin-left: 0;
@@ -111,7 +107,7 @@
     .container .botoes__btn{
         width: 20rem;
         height: 3.5rem;
-        padding: 1rem 7rem;
+        padding: 1rem 4rem;
         border-radius: 1.5rem;
        
     }
@@ -121,7 +117,7 @@
         transform: none;
     }
     .container__resultado{
-        height: 17rem; 
+        height: 12rem; 
         width: 95%;
         margin-top: 0;
     }
