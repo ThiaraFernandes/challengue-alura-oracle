@@ -189,6 +189,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        margin-left: 0;
     }
     .container__texto{
         width: 95%;
