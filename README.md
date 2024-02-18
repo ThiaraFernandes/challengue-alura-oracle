@@ -10,11 +10,15 @@
   ## 🛠️Funcionalidades do projeto
   Projeto com design responsivo que permite que o usuário acesso de dispositivos diferentes.
 
-  ## Tecnologias utilizadas
+  ## ⌨️Tecnologias utilizadas
    - HTML
    - CSS
    - JavaScript
 
-   ## Designer responsivo
+   ## Designe responsivo
    <img src="Animação.gif">
+
+   ## 🔗Acesso ao projeto
+   Acesse: (https://thiarafernandes.github.io/challengue-alura-oracle/)
+
 
