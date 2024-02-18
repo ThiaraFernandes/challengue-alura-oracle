@@ -77,9 +77,13 @@
     .container__informacoes {
         height: 31rem;
         margin-top: 1px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
         
     }
 
+  
     .container__informacoes .info{
         /* margin-left: 1rem; */
         margin-top: .9rem;
@@ -152,11 +156,11 @@
     }
 
     #botaoCopiar{
-        width: 624px;
+        width: 12rem;
         border: 2px solid #6e8689;
-        Padding: .625rem;
-        background-color: #fff;
-        color: #000;
+        Padding: .5rem;
+        background-color:#6e8689;
+        color: #fff;
     }
 
     .rodape{
