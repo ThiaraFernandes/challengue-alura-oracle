@@ -75,21 +75,20 @@
         margin-top: 1px;
     }
     .container__informacoes {
-        height: 31rem;
+        height: 26rem;
         margin-top: 1px;
+        margin-left: 3rem;
         display: flex;
         flex-direction: column;
         
     }
 
     .container__informacoes .info{
-        /* margin-left: 1rem; */
-        /* margin-top: .9rem; */
         display: flex;
         justify-content: flex-start;
     }
     .container__texto{
-        width: 90%;
+        max-width: 90%;
         height: 19rem;
         display: flex;
         align-items: center;
@@ -128,6 +127,8 @@
         background-color: #fff;
         color: #000;
         border-radius: 1.5rem;
+        margin-top: 7rem;
+        margin-bottom: 2rem;
     }
     #textElements{
         height: 1.875rem;
@@ -169,7 +170,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        padding: 3px;
+        padding: 10px;
         font-size: .9rem;
     }
 
