@@ -176,7 +176,7 @@
     
 
     .container__informacoes{
-        height: 30rem;
+        height: 25rem;
         margin-top: 1rem;
         width: 95%;
         display: flex;
@@ -212,12 +212,13 @@
     .container__resultado{
         width: 95%;
         margin-top: 0;
+        height: 16rem;
         
     }
     .criptografia__resultado{
         margin-top: 1rem;
         font-size: .8rem;
-        height: 13rem;
+        height: 11rem;
         
     }
     .container__informacoes ::placeholder{
