@@ -199,7 +199,7 @@
     }
     .container .info{
         font-size: .7rem;
-        margin-left: 0;
+        margin-left: -5rem;
     }
     .container__botoes{
         display: flex;
@@ -207,11 +207,12 @@
         align-items: center;
         gap: .1rem;
         margin-top: 0;
+        width: 95%;
 
     }
     .container .botoes__btn{
         height: 2.5rem;
-        width: 21rem;
+        width: 100%;
         font-size: .9rem;
         
     }
